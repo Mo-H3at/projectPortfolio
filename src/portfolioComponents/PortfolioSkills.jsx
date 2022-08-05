@@ -16,13 +16,8 @@ const bull = (
 export default function PortfolioSkills() {
     return ( <Box  >
       <Grid>
-            <Typography variant='h4' sx={{textAlign: 'center', width:{xs: '100%'}}}>
+            <Typography variant='h6' sx={{textAlign: 'center', width:{xs: '100%'}}}>
               Skills
-              </Typography>
-          </Grid>
-          <Grid>
-            <Typography sx={{textAlign: 'center', fontWeight: 'bold',mt: 2, width:{xs: '100%'}}}>
-              Languages
               </Typography>
           </Grid>
       <Grid container spacing={2} marginTop={4}>
@@ -40,16 +35,5 @@ export default function PortfolioSkills() {
           </Grid>
 
       </Grid>
-      <Grid>
-            <Typography sx={{align: 'center', fontWeight: 'bold', width:{xs: '100%'}}}>
-              Frameworks
-              </Typography>
-          </Grid>
-
-          <Grid>
-            <Typography sx={{align: 'center', fontWeight: 'bold', width:{xs: '100%'}}}>
-              Soft Skills
-              </Typography>
-          </Grid>
   </Box> );
   }

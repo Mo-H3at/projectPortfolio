@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import AppBar from "./parts/AppBar"
+import AppBar from "./portfolioComponents/AppBar";
 import PortfolioGrid from "./portfolioComponents/PortfolioGrid";
 
 
